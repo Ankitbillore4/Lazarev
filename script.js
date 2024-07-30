@@ -124,8 +124,8 @@ function page2Animation() {
         elem.addEventListener("mousemove", function (dets) {
 
             gsap.to(elem.childNodes[3], {
-                x: dets.x - elem.getBoundingClientRect().x - 90,
-                y: dets.y - elem.getBoundingClientRect().y - 215
+                x: dets.x - elem.getBoundingClientRect().x - 100,
+                y: dets.y - elem.getBoundingClientRect().y - 120
             })
         })
     })
